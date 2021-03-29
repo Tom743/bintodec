@@ -23,6 +23,9 @@ int main()
 		}
 	}
 	cout << "\nNumero en decimal: " << dec << endl;
+#ifdef _WIN32
+	system("pause");
+#endif
 
 	return 1;
 }
